@@ -60,19 +60,18 @@ body {
 }
 
 .sub_nav_menu {
+    display: flex;
+    flex-direction: row;
+    list-style: none; 
+    gap:60px;
+}
+
+.sub_nav_menu li a {
     color:#010101;
     text-decoration: none;
     font-size: 14px;
     font-weight: bold;
     padding: 10px;
-}
-
-.sub_nav_menu li a {
-    color:#304cff;
-    border: 2px solid rgb(253, 253, 253);
-    text-decoration: none;
-    font-size: 14px;
-    font-weight: bold;
 }
 .columna_izquierda {
     display: flex;
